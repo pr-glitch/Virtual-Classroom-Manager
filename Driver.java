@@ -44,7 +44,7 @@ public class Driver {
 				} else if (command.equals("add_assignment")) {
 					System.out.print("Enter classroom name: ");
 					String className = scanner.nextLine();
-					System.out.print("Enter assignment details: ");
+					System.out.print("Enter Assignment details: ");
 					String assignmentDetails = scanner.nextLine();
 					am.addAssignment(className, assignmentDetails);
 					numberOfAssignments++;
@@ -53,7 +53,7 @@ public class Driver {
 					String studentId = scanner.nextLine();
 					System.out.print("Enter classroom name: ");
 					String className = scanner.nextLine();
-					System.out.print("Enter assignment details: ");
+					System.out.print("Enter Assignment details: ");
 					String assignmentDetails = scanner.nextLine();
 					am.submitAssignment(studentId, className, assignmentDetails);
 
